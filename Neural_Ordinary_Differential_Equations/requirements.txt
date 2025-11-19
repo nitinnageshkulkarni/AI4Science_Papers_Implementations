@@ -1,0 +1,14 @@
+# Neural Ordinary Differential Equations - Requirements
+
+# Core scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchdiffeq>=0.2.3
+
+# Utilities
+tqdm>=4.65.0
