@@ -6,11 +6,45 @@ This repository contains implementations of various AI4Science papers and miscel
 
 This project focuses on bridging artificial intelligence with scientific research by implementing papers chronologically as developments emerge in the field, exploring novel approaches at the intersection of AI and science.
 
-## Contents
+## Implementations
 
-- Research paper implementations
-- Experimental AI models for scientific applications
-- Miscellaneous projects exploring AI in scientific domains
+### 1. [Neural Ordinary Differential Equations](./Neural_Ordinary_Differential_Equations)
+
+**Paper:** Neural Ordinary Differential Equations (Chen et al., NeurIPS 2018)  
+**Link:** [arXiv:1806.07366](https://arxiv.org/abs/1806.07366)
+
+Implementation of Neural ODEs for modeling continuous-depth neural networks using ODE solvers. This project includes:
+
+- **Dataset Generation:** Mass-spring oscillator system with 1,000 periodic trajectories
+  - Variable frequency, fixed amplitude
+  - 100 irregularly-sampled time points per trajectory
+  - Gaussian noise added to observations
+  
+- **Model Architecture:** 
+  - Direct state-space modeling without encoder/decoder bottleneck
+  - Adaptive ODE solver (dopri5) with neural network dynamics
+  - Deep neural network (4 layers, 128 hidden units)
+  
+- **Training & Evaluation:**
+  - Time series forecasting and reconstruction
+  - Subsampling during training (50 random points)
+  - Full trajectory reconstruction (100 points)
+  - Comprehensive visualization of predictions vs ground truth
+
+---
+
+## Project Structure
+
+Each implementation follows a consistent structure:
+```
+Project_Name/
+├── README.md          # Project-specific documentation
+├── requirements.txt   # Python dependencies
+├── data/             # Datasets and data generation
+├── scripts/          # Implementation scripts
+├── results/          # Experimental results and visualizations
+└── docs/             # Additional documentation
+```
 
 ## Contributing
 
