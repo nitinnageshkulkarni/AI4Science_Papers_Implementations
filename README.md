@@ -8,7 +8,30 @@ This project focuses on bridging artificial intelligence with scientific researc
 
 ## Implementations
 
-### 1. [Neural Ordinary Differential Equations](./Neural_Ordinary_Differential_Equations)
+### 1. [Linear Algebra and Matrix Methods](./Linear_Algebra_and_Matrix_Methods)
+
+Comprehensive implementation of fundamental linear algebra operations and matrix methods using PyTorch. This project includes:
+
+- **Tensor Primer:** Complete PyTorch tensor tutorial covering:
+  - Tensor creation, operations, and broadcasting
+  - Linear algebra operations and matrix computations
+  - Automatic differentiation and gradient computation
+  - Device management and optimization techniques
+
+- **Matrix Decompositions:** Implementation of major decomposition methods:
+  - LU, QR, SVD, Eigenvalue, and Cholesky decompositions
+  - Low-rank approximations and applications
+  - Image compression using SVD
+  - Solving linear systems and computing matrix properties
+
+- **Matrix Calculus:** Comprehensive guide to calculus with matrices:
+  - Gradients, Jacobians, and Hessians
+  - Automatic differentiation and backpropagation
+  - Directional derivatives and optimization methods
+  - Gradient descent and Newton's method
+  - Practical applications in machine learning
+
+### 2. [Neural Ordinary Differential Equations](./Neural_Ordinary_Differential_Equations)
 
 **Paper:** Neural Ordinary Differential Equations (Chen et al., NeurIPS 2018)  
 **Link:** [arXiv:1806.07366](https://arxiv.org/abs/1806.07366)
