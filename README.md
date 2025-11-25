@@ -8,83 +8,41 @@ This project focuses on bridging artificial intelligence with scientific researc
 
 ## Implementations
 
-### 1. [Linear Algebra and Matrix Methods](./Linear_Algebra_and_Matrix_Methods)
+| # | Project | Paper | Key Concepts | Status |
+|---|---------|-------|--------------|--------|
+| 1 | **[Linear Algebra & Matrix Methods](./Linear_Algebra_and_Matrix_Methods)** | - | Tensor operations, decompositions, calculus with matrices, autograd | ✅ Complete |
+| 2 | **[Neural Ordinary Differential Equations](./Neural_Ordinary_Differential_Equations)** | [Chen et al., NeurIPS 2018](https://arxiv.org/abs/1806.07366) | Continuous-depth networks, ODE solvers, time series modeling | ✅ Complete |
+| 3 | **[Hamiltonian Neural Networks](./Hamiltonian_Neural_Network)** | [Greydanus et al., NeurIPS 2019](https://arxiv.org/abs/1906.01563) | Physics-informed learning, energy conservation, symplectic geometry | ✅ Complete |
 
-Comprehensive implementation of fundamental linear algebra operations and matrix methods using PyTorch. This project includes:
+### Detailed Descriptions
 
-- **Tensor Primer:** Complete PyTorch tensor tutorial covering:
-  - Tensor creation, operations, and broadcasting
-  - Linear algebra operations and matrix computations
-  - Automatic differentiation and gradient computation
-  - Device management and optimization techniques
+#### 1. Linear Algebra and Matrix Methods
 
-- **Matrix Decompositions:** Implementation of major decomposition methods:
-  - LU, QR, SVD, Eigenvalue, and Cholesky decompositions
-  - Low-rank approximations and applications
-  - Image compression using SVD
-  - Solving linear systems and computing matrix properties
+Comprehensive implementation of fundamental linear algebra operations and matrix methods using PyTorch:
 
-- **Matrix Calculus:** Comprehensive guide to calculus with matrices:
-  - Gradients, Jacobians, and Hessians
-  - Automatic differentiation and backpropagation
-  - Directional derivatives and optimization methods
-  - Gradient descent and Newton's method
-  - Practical applications in machine learning
+- **Tensor Primer:** Complete PyTorch tensor tutorial
+- **Matrix Decompositions:** LU, QR, SVD, Eigenvalue, Cholesky decompositions
+- **Matrix Calculus:** Gradients, Jacobians, Hessians, automatic differentiation
 
-### 2. [Neural Ordinary Differential Equations](./Neural_Ordinary_Differential_Equations)
+#### 2. Neural Ordinary Differential Equations
 
-**Paper:** Neural Ordinary Differential Equations (Chen et al., NeurIPS 2018)  
-**Link:** [arXiv:1806.07366](https://arxiv.org/abs/1806.07366)
+**Paper:** [arXiv:1806.07366](https://arxiv.org/abs/1806.07366)
 
-Implementation of Neural ODEs for modeling continuous-depth neural networks using ODE solvers. This project includes:
+Implementation of Neural ODEs for modeling continuous-depth neural networks:
 
-- **Dataset Generation:** Mass-spring oscillator system with 1,000 periodic trajectories
-  - Variable frequency, fixed amplitude
-  - 100 irregularly-sampled time points per trajectory
-  - Gaussian noise added to observations
-  
-- **Model Architecture:** 
-  - Direct state-space modeling without encoder/decoder bottleneck
-  - Adaptive ODE solver (dopri5) with neural network dynamics
-  - Deep neural network (4 layers, 128 hidden units)
-  
-- **Training & Evaluation:**
-  - Time series forecasting and reconstruction
-  - Subsampling during training (50 random points)
-  - Full trajectory reconstruction (100 points)
-  - Comprehensive visualization of predictions vs ground truth
+- **Dataset:** Mass-spring oscillator (1,000 trajectories, 100 time points)
+- **Model:** Adaptive ODE solver with neural network dynamics (4 layers, 128 hidden units)
+- **Training:** Time series forecasting with energy conservation validation
 
-### 3. [Hamiltonian Neural Networks](./Hamiltonian_Neural_Network)
+#### 3. Hamiltonian Neural Networks
 
-**Paper:** Hamiltonian Neural Networks (Greydanus et al., NeurIPS 2019)  
-**Link:** [arXiv:1906.01563](https://arxiv.org/abs/1906.01563)
+**Paper:** [arXiv:1906.01563](https://arxiv.org/abs/1906.01563) | [Local Copy](./Hamiltonian_Neural_Network/docs/Hamiltonian%20Neural%20Network.pdf)
 
-Implementation of Hamiltonian Neural Networks that learn the energy function of dynamical systems, ensuring conservation of energy and symplectic structure. This project includes:
+Implementation of Hamiltonian Neural Networks for physics-informed learning:
 
-- **Physics-Informed Learning:**
-  - Learns the Hamiltonian (energy function) directly
-  - Automatic differentiation to compute canonical equations of motion
-  - Preserves energy conservation in learned dynamics
-  - Respects symplectic geometry principles
-
-- **Dataset:** Mass-spring oscillator system (shared with Neural ODE)
-  - 1,000 trajectories with variable frequency
-  - Energy conservation properties validated
-  
-- **Model Architecture:**
-  - Neural network that outputs scalar Hamiltonian H(q,p)
-  - 4-layer fully connected network (128 hidden units)
-  - Uses PyTorch autograd for gradient computation
-  
-- **Training Approach:**
-  - Energy conservation loss: minimizes variation in Hamiltonian over trajectory
-  - AdamW optimizer with learning rate scheduling
-  - Converges to near-zero energy variation
-  
-- **Results:**
-  - Successfully learns to conserve energy
-  - Test energy conservation error: < 1e-6
-  - Visualizations of learned energy function and trajectory dynamics
+- **Approach:** Learns the Hamiltonian (energy function) directly to ensure energy conservation
+- **Dataset:** Mass-spring oscillator (1,000 trajectories with variable frequency)
+- **Results:** Energy conservation error < 1e-6 on test set
 
 ---
 
