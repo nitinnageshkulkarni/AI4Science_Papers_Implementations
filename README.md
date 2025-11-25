@@ -1,4 +1,4 @@
-# AI4Science Papers Implementations
+c:\Users\nitin\Desktop\AI4Science_Papers_Implementations\Hamiltonian_Neural_Network\venv\Scripts\python.exe generate_dataset.py# AI4Science Papers Implementations
 
 This repository contains implementations of various AI4Science papers and miscellaneous implementations that work on the intersection of AI and scientific computing.
 
@@ -36,11 +36,6 @@ Comprehensive implementation of fundamental linear algebra operations and matrix
 **Paper:** Neural Ordinary Differential Equations (Chen et al., NeurIPS 2018)  
 **Link:** [arXiv:1806.07366](https://arxiv.org/abs/1806.07366)
 
-### 3. [Hamiltonian Neural Network](./Hamiltonian_Neural_Network)
-
-**Paper:** Hamiltonian Neural Networks  
-Implementation of Hamiltonian Neural Networks for learning conserved quantities in dynamical systems.
-
 Implementation of Neural ODEs for modeling continuous-depth neural networks using ODE solvers. This project includes:
 
 - **Dataset Generation:** Mass-spring oscillator system with 1,000 periodic trajectories
@@ -58,6 +53,38 @@ Implementation of Neural ODEs for modeling continuous-depth neural networks usin
   - Subsampling during training (50 random points)
   - Full trajectory reconstruction (100 points)
   - Comprehensive visualization of predictions vs ground truth
+
+### 3. [Hamiltonian Neural Networks](./Hamiltonian_Neural_Network)
+
+**Paper:** Hamiltonian Neural Networks (Greydanus et al., NeurIPS 2019)  
+**Link:** [arXiv:1906.01563](https://arxiv.org/abs/1906.01563)
+
+Implementation of Hamiltonian Neural Networks that learn the energy function of dynamical systems, ensuring conservation of energy and symplectic structure. This project includes:
+
+- **Physics-Informed Learning:**
+  - Learns the Hamiltonian (energy function) directly
+  - Automatic differentiation to compute canonical equations of motion
+  - Preserves energy conservation in learned dynamics
+  - Respects symplectic geometry principles
+
+- **Dataset:** Mass-spring oscillator system (shared with Neural ODE)
+  - 1,000 trajectories with variable frequency
+  - Energy conservation properties validated
+  
+- **Model Architecture:**
+  - Neural network that outputs scalar Hamiltonian H(q,p)
+  - 4-layer fully connected network (128 hidden units)
+  - Uses PyTorch autograd for gradient computation
+  
+- **Training Approach:**
+  - Energy conservation loss: minimizes variation in Hamiltonian over trajectory
+  - AdamW optimizer with learning rate scheduling
+  - Converges to near-zero energy variation
+  
+- **Results:**
+  - Successfully learns to conserve energy
+  - Test energy conservation error: < 1e-6
+  - Visualizations of learned energy function and trajectory dynamics
 
 ---
 
