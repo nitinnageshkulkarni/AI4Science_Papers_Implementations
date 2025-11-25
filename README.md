@@ -8,13 +8,15 @@ This project focuses on bridging artificial intelligence with scientific researc
 
 | # | Project | Paper | Key Concepts | Status |
 |---|---------|-------|--------------|--------|
-| 1 | **[Linear Algebra & Matrix Methods](./Linear_Algebra_and_Matrix_Methods)** | - | Tensor operations, decompositions, calculus with matrices, autograd | ✅ Complete |
-| 2 | **[Neural Ordinary Differential Equations](./Neural_Ordinary_Differential_Equations)** | [Chen et al., NeurIPS 2018](https://arxiv.org/abs/1806.07366) | Continuous-depth networks, ODE solvers, time series modeling | ✅ Complete |
-| 3 | **[Hamiltonian Neural Networks](./Hamiltonian_Neural_Network)** | [Greydanus et al., NeurIPS 2019](https://arxiv.org/abs/1906.01563) | Physics-informed learning, energy conservation, symplectic geometry | ✅ Complete |
+| 1 | **[Linear Algebra & Matrix Methods](./Linear_Algebra_and_Matrix_Methods)** | [Linear Algebra](./Linear_Algebra_and_Matrix_Methods/docs/Linear_Algebra.pdf) \| [Matrix Calculus](./Linear_Algebra_and_Matrix_Methods/docs/The%20Matrix%20Calculus%20You%20Need%20For%20Deep%20Learning.pdf) | Tensor operations, decompositions, calculus with matrices, autograd | ✅ Complete |
+| 2 | **[Neural Ordinary Differential Equations](./Neural_Ordinary_Differential_Equations)** | [Chen et al., NeurIPS 2018](./Neural_Ordinary_Differential_Equations/docs/Neural%20Ordinary%20Differential%20Equations.pdf) | Continuous-depth networks, ODE solvers, time series modeling | ✅ Complete |
+| 3 | **[Hamiltonian Neural Networks](./Hamiltonian_Neural_Network)** | [Greydanus et al., NeurIPS 2019](./Hamiltonian_Neural_Network/docs/Hamiltonian%20Neural%20Network.pdf) | Physics-informed learning, energy conservation, symplectic geometry | ✅ Complete |
 
 ### Detailed Descriptions
 
 #### 1. Linear Algebra and Matrix Methods
+
+**Papers:** [Linear Algebra](./Linear_Algebra_and_Matrix_Methods/docs/Linear_Algebra.pdf) | [Matrix Calculus](./Linear_Algebra_and_Matrix_Methods/docs/The%20Matrix%20Calculus%20You%20Need%20For%20Deep%20Learning.pdf)
 
 Comprehensive implementation of fundamental linear algebra operations and matrix methods using PyTorch:
 
@@ -24,7 +26,7 @@ Comprehensive implementation of fundamental linear algebra operations and matrix
 
 #### 2. Neural Ordinary Differential Equations
 
-**Paper:** [arXiv:1806.07366](https://arxiv.org/abs/1806.07366)
+**Paper:** [Chen et al., NeurIPS 2018](./Neural_Ordinary_Differential_Equations/docs/Neural%20Ordinary%20Differential%20Equations.pdf) | [arXiv](https://arxiv.org/abs/1806.07366)
 
 Implementation of Neural ODEs for modeling continuous-depth neural networks:
 
@@ -34,7 +36,7 @@ Implementation of Neural ODEs for modeling continuous-depth neural networks:
 
 #### 3. Hamiltonian Neural Networks
 
-**Paper:** [arXiv:1906.01563](https://arxiv.org/abs/1906.01563) | [Local Copy](./Hamiltonian_Neural_Network/docs/Hamiltonian%20Neural%20Network.pdf)
+**Paper:** [Greydanus et al., NeurIPS 2019](./Hamiltonian_Neural_Network/docs/Hamiltonian%20Neural%20Network.pdf) | [arXiv](https://arxiv.org/abs/1906.01563)
 
 Implementation of Hamiltonian Neural Networks for physics-informed learning:
 

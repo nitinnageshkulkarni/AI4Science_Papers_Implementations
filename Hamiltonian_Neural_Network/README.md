@@ -1,8 +1,7 @@
 # Hamiltonian Neural Network
 
 **Paper:** Hamiltonian Neural Networks (Greydanus et al., NeurIPS 2019)  
-**Link:** [arXiv:1906.01563](https://arxiv.org/abs/1906.01563)  
-**Local Copy:** [docs/Hamiltonian Neural Network.pdf](docs/Hamiltonian%20Neural%20Network.pdf)
+**Link:** [arXiv:1906.01563](https://arxiv.org/abs/1906.01563) | [PDF](docs/Hamiltonian%20Neural%20Network.pdf)
 
 Implementation of Hamiltonian Neural Networks for learning conserved quantities in dynamical systems. Unlike standard neural networks that learn arbitrary dynamics, HNNs learn the Hamiltonian (energy function) directly, ensuring that the learned dynamics conserve total energy and obey symplectic geometry principles.
 
