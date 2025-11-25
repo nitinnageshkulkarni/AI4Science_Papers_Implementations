@@ -1,5 +1,3 @@
-c:\Users\nitin\Desktop\AI4Science_Papers_Implementations\Hamiltonian_Neural_Network\venv\Scripts\python.exe generate_dataset.py# AI4Science Papers Implementations
-
 This repository contains implementations of various AI4Science papers and miscellaneous implementations that work on the intersection of AI and scientific computing.
 
 ## About
