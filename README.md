@@ -36,6 +36,11 @@ Comprehensive implementation of fundamental linear algebra operations and matrix
 **Paper:** Neural Ordinary Differential Equations (Chen et al., NeurIPS 2018)  
 **Link:** [arXiv:1806.07366](https://arxiv.org/abs/1806.07366)
 
+### 3. [Hamiltonian Neural Network](./Hamiltonian_Neural_Network)
+
+**Paper:** Hamiltonian Neural Networks  
+Implementation of Hamiltonian Neural Networks for learning conserved quantities in dynamical systems.
+
 Implementation of Neural ODEs for modeling continuous-depth neural networks using ODE solvers. This project includes:
 
 - **Dataset Generation:** Mass-spring oscillator system with 1,000 periodic trajectories
