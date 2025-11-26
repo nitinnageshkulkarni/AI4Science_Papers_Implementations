@@ -1,0 +1,8 @@
+Mass-Spring Oscillator Dataset
+==================================================
+
+n_trajectories: 1000
+n_points_per_trajectory: 100
+frequency_range: (np.float64(0.502222057472042), np.float64(1.9978113065262104))
+frequency_mean: 1.230105201231499
+frequency_std: 0.43537546729464155
