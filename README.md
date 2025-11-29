@@ -98,11 +98,11 @@ Project_Name/
 ### Quick Start Guide
 
 Each project includes:
-- 📖 **Comprehensive README** with theory and usage
-- 📊 **Dataset generation scripts** for reproducibility
-- 🧠 **Training scripts** with best practices
-- 📈 **Visualization tools** for results analysis
-- 📚 **Reference papers** in the docs folder
+**Comprehensive README** with theory and usage
+**Dataset generation scripts** for reproducibility
+**Training scripts** with best practices
+**Visualization tools** for results analysis
+**Reference papers** in the docs folder
 
 ## Learning Path
 
