@@ -1,4 +1,4 @@
-This repository contains implementations of various AI4Science papers and miscellaneous implementations that work on the intersection of AI and scientific computing.
+This repository contains implementations of various AI4Science papers and other miscellaneous implementations that work on the intersection of AI and scientific computing.
 
 ## About
 
