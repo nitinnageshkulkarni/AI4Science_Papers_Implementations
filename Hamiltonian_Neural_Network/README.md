@@ -188,7 +188,6 @@ python scripts/train_hamiltonian_nn.py
 ### 3. Evaluate Results
 
 The training script automatically:
-- Evaluates on test set
 - Measures energy conservation error
 - Generates prediction visualizations
 - Compares against baseline neural network
