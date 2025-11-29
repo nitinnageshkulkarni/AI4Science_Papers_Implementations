@@ -4,6 +4,8 @@
 
 Comprehensive implementation of fundamental linear algebra operations, matrix decomposition methods, and matrix calculus using PyTorch for deep learning and scientific computing applications.
 
+This project serves as a foundational resource for understanding the mathematical principles underlying modern machine learning and scientific computing, with hands-on implementations and visualizations.
+
 ## Reference Materials
 
 This project is based on the following reference materials (available in `docs/` folder):
@@ -89,13 +91,109 @@ pip install -r requirements.txt
 
 ## Applications
 
-- Principal Component Analysis (PCA)
-- Singular Value Decomposition for data compression
-- Image compression and low-rank approximations
-- Matrix factorization methods
-- Numerical linear algebra techniques
-- Optimization algorithms for machine learning
-- Gradient-based learning and backpropagation
+### Machine Learning
+- Principal Component Analysis (PCA) for dimensionality reduction
+- Singular Value Decomposition for recommender systems
+- Matrix factorization for collaborative filtering
+- Feature extraction and data preprocessing
+
+### Computer Vision
+- Image compression using low-rank approximations
+- Image denoising and reconstruction
+- Facial recognition (eigenfaces)
+
+### Optimization
+- Gradient descent and variants
+- Newton's method and quasi-Newton methods
+- Constrained optimization with Lagrange multipliers
+- Backpropagation in neural networks
+
+### Scientific Computing
+- Solving linear systems Ax = b
+- Least squares regression
+- Eigenvalue problems
+- Numerical stability analysis
+
+## Key Learning Outcomes
+
+After working through these notebooks, you will understand:
+
+1. **Tensor Operations:** How to efficiently manipulate multi-dimensional arrays
+2. **Matrix Decompositions:** When and how to apply different factorization methods
+3. **Matrix Calculus:** How to compute derivatives of matrix expressions
+4. **Automatic Differentiation:** How modern deep learning frameworks compute gradients
+5. **Optimization:** How gradient-based methods work mathematically
+6. **Numerical Stability:** How to write numerically stable code
+
+## Best Practices
+
+### Numerical Stability
+- Use appropriate matrix decompositions (e.g., QR instead of normal equations)
+- Check condition numbers before solving linear systems
+- Prefer stable algorithms (e.g., SVD over eigendecomposition for singular matrices)
+
+### Performance
+- Leverage PyTorch's GPU acceleration
+- Use batch operations instead of loops
+- Understand when to use in-place operations
+- Profile code to identify bottlenecks
+
+### Code Quality
+- Write readable, documented code
+- Use descriptive variable names
+- Add assertions to check matrix shapes
+- Include error handling for edge cases
+
+## Troubleshooting
+
+### Common Issues
+
+**Issue:** "RuntimeError: CUDA out of memory"
+- **Solution:** Reduce batch size or move to CPU with `.cpu()`
+
+**Issue:** "Matrix is singular or near-singular"
+- **Solution:** Check condition number, use pseudo-inverse, or add regularization
+
+**Issue:** "Gradients are None"
+- **Solution:** Ensure tensors have `requires_grad=True` and operations are differentiable
+
+## Additional Resources
+
+### Online Courses
+- [Stanford CS229: Machine Learning - Linear Algebra Review](http://cs229.stanford.edu/section/cs229-linalg.pdf)
+- [MIT 18.06: Linear Algebra by Gilbert Strang](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
+
+### Books
+- "Linear Algebra and Its Applications" by Gilbert Strang
+- "Matrix Computations" by Gene Golub and Charles Van Loan
+- "Numerical Linear Algebra" by Lloyd N. Trefethen and David Bau III
+
+### PyTorch Documentation
+- [PyTorch Linear Algebra Functions](https://pytorch.org/docs/stable/linalg.html)
+- [Automatic Differentiation](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
+
+## Contributing
+
+Contributions are welcome! If you'd like to add:
+- Additional decomposition methods
+- More practical applications
+- Performance optimizations
+- Additional visualizations
+
+Please feel free to submit a pull request.
+
+## Citation
+
+If you use these materials in your research or teaching, please cite:
+
+```bibtex
+@misc{ai4science_linalg,
+  title={Linear Algebra and Matrix Methods for AI4Science},
+  author={Your Name},
+  year={2025},
+  url={https://github.com/nitinnageshkulkarni/AI4Science_Papers_Implementations}
+}
+```
 
 ## License
 
