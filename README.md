@@ -8,9 +8,9 @@ This project focuses on bridging artificial intelligence with scientific researc
 
 | # | Project | Paper | Key Concepts | Status |
 |---|---------|-------|--------------|--------|
-| 1 | **[Linear Algebra & Matrix Methods](./Linear_Algebra_and_Matrix_Methods)** | [Linear Algebra](./Linear_Algebra_and_Matrix_Methods/docs/Linear_Algebra.pdf) \| [Matrix Calculus](./Linear_Algebra_and_Matrix_Methods/docs/The%20Matrix%20Calculus%20You%20Need%20For%20Deep%20Learning.pdf) | Tensor operations, decompositions, calculus with matrices, autograd | ✅ Complete |
-| 2 | **[Neural Ordinary Differential Equations](./Neural_Ordinary_Differential_Equations)** | [Chen et al., NeurIPS 2018](./Neural_Ordinary_Differential_Equations/docs/Neural%20Ordinary%20Differential%20Equations.pdf) | Continuous-depth networks, ODE solvers, time series modeling | ✅ Complete |
-| 3 | **[Hamiltonian Neural Networks](./Hamiltonian_Neural_Network)** | [Greydanus et al., NeurIPS 2019](./Hamiltonian_Neural_Network/docs/Hamiltonian%20Neural%20Network.pdf) | Physics-informed learning, energy conservation, symplectic geometry | ✅ Complete |
+| 1 | **[Linear Algebra & Matrix Methods](./Linear_Algebra_and_Matrix_Methods)** | [Linear Algebra](./Linear_Algebra_and_Matrix_Methods/docs/Linear_Algebra.pdf) \| [Matrix Calculus](./Linear_Algebra_and_Matrix_Methods/docs/The%20Matrix%20Calculus%20You%20Need%20For%20Deep%20Learning.pdf) | Tensor operations, decompositions, calculus with matrices, autograd | Complete |
+| 2 | **[Neural Ordinary Differential Equations](./Neural_Ordinary_Differential_Equations)** | [Chen et al., NeurIPS 2018](./Neural_Ordinary_Differential_Equations/docs/Neural%20Ordinary%20Differential%20Equations.pdf) | Continuous-depth networks, ODE solvers, time series modeling | Complete |
+| 3 | **[Hamiltonian Neural Networks](./Hamiltonian_Neural_Network)** | [Greydanus et al., NeurIPS 2019](./Hamiltonian_Neural_Network/docs/Hamiltonian%20Neural%20Network.pdf) | Physics-informed learning, energy conservation, symplectic geometry | Complete |
 
 ### Detailed Descriptions
 
