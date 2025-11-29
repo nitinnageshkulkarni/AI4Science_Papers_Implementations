@@ -129,39 +129,6 @@ Each project includes:
 - Understand theory before moving to applications
 - Implement variations and extensions
 
-## Key Features Across Projects
-
-### 🔬 Scientific Rigor
-- Implementations based on peer-reviewed papers
-- Reproducible results with fixed random seeds
-- Comprehensive documentation of methodology
-
-### 💻 Production-Quality Code
-- Clean, well-documented Python code
-- Type hints and docstrings
-- Error handling and validation
-- Modular design for reusability
-
-### 📊 Visualization & Analysis
-- Publication-quality plots
-- Training progress tracking
-- Comprehensive evaluation metrics
-- Interactive Jupyter notebooks
-
-### 🎓 Educational Focus
-- Detailed explanations of concepts
-- Step-by-step tutorials
-- Common pitfalls and solutions
-- References to additional resources
-
-## Repository Statistics
-
-![Stars](https://img.shields.io/github/stars/nitinnageshkulkarni/AI4Science_Papers_Implementations?style=social)
-![Forks](https://img.shields.io/github/forks/nitinnageshkulkarni/AI4Science_Papers_Implementations?style=social)
-![Issues](https://img.shields.io/github/issues/nitinnageshkulkarni/AI4Science_Papers_Implementations)
-![License](https://img.shields.io/github/license/nitinnageshkulkarni/AI4Science_Papers_Implementations)
-
-## Future Additions
 
 Planned implementations include:
 
@@ -212,32 +179,10 @@ If you use this repository in your research or teaching, please cite:
 }
 ```
 
-## Resources
-
-### Online Communities
-- [AI4Science Discord](https://discord.gg/ai4science)
-- [r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
-- [Papers with Code](https://paperswithcode.com/)
-
-### Related Repositories
+## Related Repositories
 - [PyTorch Examples](https://github.com/pytorch/examples)
 - [Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers)
 - [Scientific Machine Learning](https://github.com/SciML)
-
-### Conferences & Journals
-- NeurIPS (Neural Information Processing Systems)
-- ICML (International Conference on Machine Learning)
-- ICLR (International Conference on Learning Representations)
-- Nature Machine Intelligence
-- Journal of Machine Learning Research
-
-## Acknowledgments
-
-This project is inspired by and built upon the groundbreaking work of researchers in the AI4Science community. Special thanks to:
-
-- The authors of all implemented papers
-- PyTorch and scientific Python communities
-- Open-source contributors and maintainers
 
 ## Contact
 
@@ -249,10 +194,4 @@ This project is inspired by and built upon the groundbreaking work of researcher
 
 This project is open source and available under the MIT License.
 
----
 
-⭐ **Star this repository** if you find it helpful!
-
-🔔 **Watch** for updates on new implementations!
-
-🍴 **Fork** to create your own implementations!
